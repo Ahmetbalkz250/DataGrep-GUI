@@ -26,3 +26,11 @@ Projeyi kendi bilgisayarınızda (local machine) kaynak kodundan çalıştırmak
 
 ```bash
 pip install -r requirements.txt
+```
+
+(Not: requirements.txt dosyası projede bulunmuyorsa pip install customtkinter pandas openpyxl komutu ile temel bağımlılıkları kurabilirsiniz.)
+
+Ardından ana betiği (script) çalıştırın:
+```bash
+python main.py
+```
