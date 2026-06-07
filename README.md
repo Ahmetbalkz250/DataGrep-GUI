@@ -34,3 +34,11 @@ Ardından ana betiği (script) çalıştırın:
 ```bash
 python main.py
 ```
+## 📖 Nasıl Kullanılır?
+* Uygulama açıldığında sol menüden "Select a file" butonuna tıklayın.
+
+* Bilgisayarınızdan incelemek istediğiniz dosyayı seçin (.csv, .xlsx, veya .db).
+
+* Veri yüklendiğinde tablonun ilk 100 satırı sağ ekranda belirecektir.
+
+* Alt kısımdaki arama çubuğuna filtrelemek istediğiniz metni veya sayıyı yazmaya başlayın. Tablo, siz yazdıkça (büyük/küçük harf duyarlılığı olmadan) tüm sütunlarda otomatik olarak güncellenecektir.
