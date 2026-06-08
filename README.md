@@ -5,10 +5,10 @@ Instead of using clunky database viewers or slow spreadsheet software, it loads 
 
 ## 🚀 Key Features
 
-* **Dinamik Tetikleme (Real-Time Search):** Arama işlemi bir butona basarak değil, arama kutusuna yazılan her harfte anlık olarak gerçekleşir.
-* **Çoklu Format Desteği:** `.csv` ve `.xlsx` gibi düz dosyaların yanı sıra, `.db` ve `.sqlite` veritabanı dosyalarını okuyabilir. Veritabanı bağlandığında sistem `sqlite_master` üzerinden tabloları otomatik tespit eder.
-* **Performans Optimizasyonu:** Kullanıcı arayüzünün (GUI) donmasını engellemek için, filtrelenen sonuçların yalnızca ilk 100 satırı (head) ekrana (Treeview) render edilir. Arka planda veri kaybı yaşanmaz.
-* **Modern Arayüz:** CustomTkinter altyapısı ile karanlık mod (dark mode) destekli, minimalist ve kullanıcı dostu bir deneyim sunar.
+* **Real-Time Search (Dynamic Triggering):** The search is not triggered by a button click; it filters the data instantly with every keystroke.
+* **Multi-Format Support:** It can read flat files like `.csv` and `.xlsx`, as well as `.db` and `.sqlite` databases. The system automatically detects tables via `sqlite_master` when database is connected.
+* **Performance Optimization:** To prevent user interface (GUI) freezing, only the first 100 rows of filtred results are displayed on screen (Treeview). No data is lost in the backgraund.
+* **Modern Interface:** It offers minimalist and user-friendly experience with dark mode from CustomTkinter 
 
 ## 🛠️ Kullanılan Teknolojiler
 
