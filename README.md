@@ -1,10 +1,9 @@
-# 🔍 OmniSearch: Dinamik Veri Arama Motoru
+# 🔍 OmniSearch: Dynamic Data Search Engine
+OmniSearch is an event-driven desktop search engine that allows you to perform instant, real-time searches across massive datasets (Excel, CSV) and relational databases (SQLite).
 
-OmniSearch, devasa veri setleri (Excel, CSV) ve ilişkisel veritabanları (SQLite) üzerinde saniyeler içinde anlık arama yapmanızı sağlayan, olay yönelimli (event-driven) bir masaüstü arama motorudur. 
+Instead of using clunky database viewers or slow spreadsheet software, it loads the data directly into RAM (Pandas DataFrame). Each time the user presses a key (`<KeyRelease>`), it instantly filters across all rows and columns like Chrome's CTRL+F logic
 
-Hantal veritabanı görüntüleyicileri veya yavaş e-tablo programları yerine; veriyi doğrudan RAM'e (Pandas DataFrame) alarak, kullanıcı klavyeye her dokunduğunda (`<KeyRelease>`) tüm sütunlarda ve satırlarda anlık filtreleme (Ctrl+F mantığı) yapar.
-
-## 🚀 Öne Çıkan Özellikler
+## 🚀 Key Features
 
 * **Dinamik Tetikleme (Real-Time Search):** Arama işlemi bir butona basarak değil, arama kutusuna yazılan her harfte anlık olarak gerçekleşir.
 * **Çoklu Format Desteği:** `.csv` ve `.xlsx` gibi düz dosyaların yanı sıra, `.db` ve `.sqlite` veritabanı dosyalarını okuyabilir. Veritabanı bağlandığında sistem `sqlite_master` üzerinden tabloları otomatik tespit eder.
