@@ -10,31 +10,32 @@ Instead of using clunky database viewers or slow spreadsheet software, it loads 
 * **Performance Optimization:** To prevent user interface (GUI) freezing, only the first 100 rows of filtred results are displayed on screen (Treeview). No data is lost in the backgraund.
 * **Modern Interface:** It offers minimalist and user-friendly experience with dark mode from CustomTkinter 
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Tech Stack
 
 * **Python 3.x**
-* **CustomTkinter:** Modern arayüz tasarımı.
-* **Pandas:** Bellek içi (in-memory) veri manipülasyonu ve hızlı filtreleme.
-* **SQLite3:** Veritabanı bağlantısı ve sorgulama (Built-in).
+* **CustomTkinter:** For modern, sleek UI design.
+* **Pandas:** For in-memory data manipulation and high-speed filtering.
+* **SQLite3:** Built-in database connection and querying.
 
 ---
 
-## 💻 Kurulum ve Çalıştırma (Geliştiriciler İçin)
+## 💻 Installation & Setup
 
-Projeyi kendi bilgisayarınızda (local machine) kaynak kodundan çalıştırmak için öncelikle gerekli kütüphaneleri kurun:
+To run the project from the source code on your local machine, first install required library:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-(Not: requirements.txt dosyası projede bulunmuyorsa pip install customtkinter pandas openpyxl komutu ile temel bağımlılıkları kurabilirsiniz.)
+(Note: If requirements.txt is missing, you can install the core libraries using pip install customtkinter pandas openpyxl)
 
-Ardından ana betiği (script) çalıştırın:
+Then, execute the main script:
 ```bash
 python main.py
 ```
+
 ## 📖 Nasıl Kullanılır?
-* Uygulama açıldığında sol menüden "Select a file" butonuna tıklayın.
+* Click the "Select a File" button on left menu when application is oppened.
 
 * Bilgisayarınızdan incelemek istediğiniz dosyayı seçin (.csv, .xlsx, veya .db).
 
