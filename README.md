@@ -34,14 +34,14 @@ Then, execute the main script:
 python main.py
 ```
 
-## 📖 Nasıl Kullanılır?
+## 📖 How to Use?
 * Click the "Select a File" button on left menu when application is oppened.
 
-* Bilgisayarınızdan incelemek istediğiniz dosyayı seçin (.csv, .xlsx, veya .db).
+* Select the file you want to ispect (.csv, .xlsx, veya .db) from your computer.
 
-* Veri yüklendiğinde tablonun ilk 100 satırı sağ ekranda belirecektir.
+* First 100 rows of table will appear via the right panel when file is loaded.
 
-* Alt kısımdaki arama çubuğuna filtrelemek istediğiniz metni veya sayıyı yazmaya başlayın. Tablo, siz yazdıkça (büyük/küçük harf duyarlılığı olmadan) tüm sütunlarda otomatik olarak güncellenecektir.
+* Begin to typing text or number you want to filter in the search bar at the bottom. Table updates automatically every colums as well as you typing (without case sensitivity).
 
 ## 📦 Masaüstü Uygulaması (EXE) Haline Getirme
 Bu programı Python yüklü olmayan herhangi bir Windows bilgisayarda bağımsız (standalone) bir program gibi çalıştırmak isterseniz, tek tıklamalı bir .exe dosyasına dönüştürebilirsiniz.
