@@ -43,15 +43,15 @@ python main.py
 
 * Begin typing text or number you want to filter in the search bar at the bottom. Table updates automatically across all columns as you typing (case-insensitive).
 
-## 📦 Masaüstü Uygulaması (EXE) Haline Getirme
-Bu programı Python yüklü olmayan herhangi bir Windows bilgisayarda bağımsız (standalone) bir program gibi çalıştırmak isterseniz, tek tıklamalı bir .exe dosyasına dönüştürebilirsiniz.
-* PyInstaller'ı Yükleyin: Terminalinizi açıp aşağıdaki komutu girin:
+## 📦 Converting to a Desktop Application (EXE)
+If you want to run this program on any Windows standalone PC without Python, you can convert a single-click .exe file.
+* Install PyInstaller: Open your terminal and run the following command:
 ```bash
 pip install pyinstaller
 ```
-* EXE Dosyasını Oluşturun: Proje klasörünüzün içinde terminali açın ve şu komutu çalıştırın:
+* Create EXE File: Open the terminal inside your project directory and run following command:
 ```bash
 pyinstaller --noconsole --onefile main.py
 ```
-Not: --noconsole parametresi (flag), program çalışırken arkada siyah CMD penceresinin açılmasını engeller, yalnızca modern arayüz (GUI) görünür.
-* Programı Çalıştırın: İşlem bittiğinde proje klasörünüzde dist adında yeni bir klasör oluşacak. Bu klasörün içindeki main.exe dosyasını bilgisayarınızın herhangi bir konumuna taşıyıp kullanabilirsiniz.
+Note: The --noconsole parameter prevents the CMD window from opening. Only user interface (GUI) is appeared.
+* Run the Program: A new folder named "dist" will be created when the process finishes. You can use the "main.exe" file in this folder as you desire, or even you copy this file to any location you want.
