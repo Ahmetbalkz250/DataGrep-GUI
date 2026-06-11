@@ -35,13 +35,13 @@ python main.py
 ```
 
 ## 📖 How to Use?
-* Click the "Select a File" button on left menu when application is oppened.
+* Click the "Select a File" button on the left menu when application is opened.
 
 * Select the file you want to inspect (.csv, .xlsx, veya .db) from your computer.
 
-* First 100 rows of table will appear via the right panel when file is loaded.
+* The first 100 rows of table will appear on the right panel when file is loaded.
 
-* Begin to typing text or number you want to filter in the search bar at the bottom. Table updates automatically every colums as well as you typing (without case sensitivity).
+* Begin typing text or number you want to filter in the search bar at the bottom. Table updates automatically across all columns as you typing (case-insensitive).
 
 ## 📦 Masaüstü Uygulaması (EXE) Haline Getirme
 Bu programı Python yüklü olmayan herhangi bir Windows bilgisayarda bağımsız (standalone) bir program gibi çalıştırmak isterseniz, tek tıklamalı bir .exe dosyasına dönüştürebilirsiniz.
