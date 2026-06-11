@@ -37,7 +37,7 @@ python main.py
 ## 📖 How to Use?
 * Click the "Select a File" button on left menu when application is oppened.
 
-* Select the file you want to ispect (.csv, .xlsx, veya .db) from your computer.
+* Select the file you want to inspect (.csv, .xlsx, veya .db) from your computer.
 
 * First 100 rows of table will appear via the right panel when file is loaded.
 
